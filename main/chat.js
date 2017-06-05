@@ -2,11 +2,11 @@
  * Created by phamquan on 6/4/17.
  */
 
-ibigfox.basePath="../../../"; // basePath + 'demo/chat/js/message/common/Tags.js' sẽ ra đường dẫn tương đối của file javascript so với chat.html
-ibigfox.addPath('demo/chat/js/message/common/Tags.js', ['chat.message.common.Tags']); // khai báo class nào ứng với file javascript nào
-ibigfox.addPath('demo/chat/js/message/cs/CSChat.js', ['chat.message.cs.CSChat']);
-ibigfox.addPath('demo/chat/js/message/item/ChatItem.js', ['chat.message.item.ChatItem']);
-ibigfox.addPath('demo/chat/js/message/sc/SCChat.js', ['chat.message.sc.SCChat']);
+ibigfox.basePath="../"; // basePath + 'demo/chat/js/message/common/Tags.js' sẽ ra đường dẫn tương đối của file javascript so với chat.html
+ibigfox.addPath('js/message/common/Tags.js', ['chat.message.common.Tags']); // khai báo class nào ứng với file javascript nào
+ibigfox.addPath('js/message/cs/CSChat.js', ['chat.message.cs.CSChat']);
+ibigfox.addPath('js/message/item/ChatItem.js', ['chat.message.item.ChatItem']);
+ibigfox.addPath('js/message/sc/SCChat.js', ['chat.message.sc.SCChat']);
 ibigfox.resetBasePath(); // reset lại basePath
 
 ibigfox.require('chat.message.common.Tags'); // load file javascript ứng với class chat.message.common.Tags vào hệ thống
